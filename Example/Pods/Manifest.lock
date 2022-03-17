@@ -1,0 +1,16 @@
+PODS:
+  - ZPNetworking (0.1.0)
+
+DEPENDENCIES:
+  - ZPNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  ZPNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZPNetworking: 18c216274fe71ded7170dc7356f0fecb7ee783d7
+
+PODFILE CHECKSUM: f27274f38d28be8d2110ff2a6d9e1059f0c0a5ef
+
+COCOAPODS: 1.11.2
