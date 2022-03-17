@@ -9,4 +9,8 @@
 
 @implementation ZPNetworking
 
+- (void)update{
+    NSLog(@"1234");
+}
+
 @end
