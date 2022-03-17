@@ -9,75 +9,77 @@
 /* Begin PBXBuildFile section */
 		1C7760F9D5BDB0170527CCBDAC2DA497 /* Pods-ZPNetworking_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A295895D6A15BF56EB7AC6EF3ADF118B /* Pods-ZPNetworking_Example-dummy.m */; };
 		27B199B44E89E2C9D020A77AE183EBC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2A3E818A465809ED0E2C980A8BDDD819 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CD19718E0747A872278D09806C5ACEB9 /* ReplaceMe.m */; };
+		2E95A68F24448786751FE504333B8A59 /* ZPNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C159DCF202DE210E31D078B8C9CAF0A /* ZPNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		375C6E41CB024BD4BC5DDCA16EB34167 /* Pods-ZPNetworking_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 040E6CDBB633E66363366000D1BC67B8 /* Pods-ZPNetworking_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		558FEC5285B36FB3BADC86281A85C83E /* ZPNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 279AB280BF476E8448607E8E19C05166 /* ZPNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		468C9545FCE6D305D1AC6E260223606A /* ZPNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 568E0C8F87D0B6AB63B5B8D749547F7C /* ZPNetworking.m */; };
+		7A452DC7883FCFFEE4ADF3AC7B33746C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		83255300750613184024699776CBBEC6 /* Pods-ZPNetworking_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C63DFE7AF15DF1FAC3E2F41A8FB8E9 /* Pods-ZPNetworking_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		932C4D0B88DF736A94B7DEA912BB5F41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		AB159F7D9F82D7981139D11BB3ACC21E /* Pods-ZPNetworking_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD714254E2EFA79591DD781446AB9A54 /* Pods-ZPNetworking_Tests-dummy.m */; };
-		B08ED3E8F752938906D22B3A570C88CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F6D63996AD17E70926F2640B00CCF768 /* ZPNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D27D655399E8CD9B2F79B3B2FA47B997 /* ZPNetworking-dummy.m */; };
+		ABDFDF35B1E46D8720382B31DA39E530 /* ZPNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A4564DD4EC49AD7D87D4E6F9453CCB5 /* ZPNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD767523860E5F2A9D48825096C7D649 /* ZPNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2EAA614CC5D7AFC50874C3B215CA6B /* ZPNetworking-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F3D4252145C2E0C14492BA852608952 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 31FA067FF991E7BD62261BCA69E2C4E4;
-			remoteInfo = ZPNetworking;
-		};
-		561F2BA5E0C5CF6D3A59937817311FA8 /* PBXContainerItemProxy */ = {
+		332780934BCCDABDB778A102C206363F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 54249B8F6A5DBB9937662D59661244C9;
 			remoteInfo = "Pods-ZPNetworking_Example";
 		};
+		D718F5C0FEA271D014DCCF557B320B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31FA067FF991E7BD62261BCA69E2C4E4;
+			remoteInfo = ZPNetworking;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		040E6CDBB633E66363366000D1BC67B8 /* Pods-ZPNetworking_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPNetworking_Example-umbrella.h"; sourceTree = "<group>"; };
 		0A32ABBF13E65E1552E0EA7D875AF612 /* Pods-ZPNetworking_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPNetworking_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C159DCF202DE210E31D078B8C9CAF0A /* ZPNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPNetworking-umbrella.h"; sourceTree = "<group>"; };
+		0E2EAA614CC5D7AFC50874C3B215CA6B /* ZPNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZPNetworking-dummy.m"; sourceTree = "<group>"; };
 		1365470475CA31AB77CCC455618C6306 /* Pods-ZPNetworking_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPNetworking_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		140C4A4BC409AF55E114E0B47D0F32D8 /* Pods-ZPNetworking_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZPNetworking_Example"; path = Pods_ZPNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1507093037FFE16EF1D0474C6D6E875E /* Pods-ZPNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		22183313B486D8061A1EF34E8C6FDC89 /* ZPNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZPNetworking-Info.plist"; sourceTree = "<group>"; };
-		27457AA4D05A3A05F8F6B6D837B6B359 /* ZPNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPNetworking-prefix.pch"; sourceTree = "<group>"; };
-		279AB280BF476E8448607E8E19C05166 /* ZPNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPNetworking-umbrella.h"; sourceTree = "<group>"; };
+		21066BF37A88EC728E0118D34338A6DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		243FE23B054BD976E146C93E913A715C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		35896F00F7DF54AD1DFE70736895F348 /* ZPNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		3ACB3137A37EC5880F3A61F2D5CB1833 /* Pods-ZPNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
-		50D0E303427F79F20925AE6957E4F8E0 /* ZPNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		434903B92A94C2AC74796DB6ADEA89B0 /* ZPNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPNetworking-prefix.pch"; sourceTree = "<group>"; };
 		55C63DFE7AF15DF1FAC3E2F41A8FB8E9 /* Pods-ZPNetworking_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPNetworking_Tests-umbrella.h"; sourceTree = "<group>"; };
-		57FEDE6A4FB3759FB2AD6D6CABE7ED42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		568E0C8F87D0B6AB63B5B8D749547F7C /* ZPNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZPNetworking.m; path = ZPNetworking/Classes/ZPNetworking.m; sourceTree = "<group>"; };
 		720BA482D79FB472C5D0F39B63837DC6 /* Pods-ZPNetworking_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPNetworking_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7B92F8C409181CEAE4B87BAF2117E7C9 /* Pods-ZPNetworking_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZPNetworking_Tests"; path = Pods_ZPNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4564DD4EC49AD7D87D4E6F9453CCB5 /* ZPNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZPNetworking.h; path = ZPNetworking/Classes/ZPNetworking.h; sourceTree = "<group>"; };
 		9C1B5C0FDA77B92B689693002D19748D /* Pods-ZPNetworking_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPNetworking_Example-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A295895D6A15BF56EB7AC6EF3ADF118B /* Pods-ZPNetworking_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPNetworking_Example-dummy.m"; sourceTree = "<group>"; };
-		A304ECA654D1638C8BC0C0DDC86D0E3E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		A60E5D2D6CC9F4746036A1FA2D43C410 /* ZPNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZPNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		AF3A3D60D8658728983983EDAB908247 /* Pods-ZPNetworking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPNetworking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B53A4E43CD908348A2AD018DF884959E /* ZPNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZPNetworking.modulemap; sourceTree = "<group>"; };
+		B108CF4238B210E1EC4616AB8CE4F070 /* ZPNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPNetworking.release.xcconfig; sourceTree = "<group>"; };
 		CCB620A921B0C082B2DF49AC87918C1B /* Pods-ZPNetworking_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZPNetworking_Tests.modulemap"; sourceTree = "<group>"; };
-		CD19718E0747A872278D09806C5ACEB9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZPNetworking/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		CD714254E2EFA79591DD781446AB9A54 /* Pods-ZPNetworking_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPNetworking_Tests-dummy.m"; sourceTree = "<group>"; };
 		D039ACD7A6B91441EA4D82FB09BB4FBC /* Pods-ZPNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D27D655399E8CD9B2F79B3B2FA47B997 /* ZPNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZPNetworking-dummy.m"; sourceTree = "<group>"; };
+		D041652C5A0314816956DFCC9AD662BA /* ZPNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZPNetworking.modulemap; sourceTree = "<group>"; };
 		D7C11E91A560A92B1B37BE3A7077F961 /* Pods-ZPNetworking_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPNetworking_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E175617AFD924390A41E23A295944DBA /* Pods-ZPNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E2458E1A7EB0151649812336F5287A33 /* ZPNetworking */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZPNetworking; path = ZPNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F062D2BEAAE26BDD36D844DD6B7B5BC6 /* Pods-ZPNetworking_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZPNetworking_Example.modulemap"; sourceTree = "<group>"; };
+		F667E14062B807DEFBEEABE9CF490338 /* ZPNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZPNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F8FC710295C17D78B73D0E2B99282061 /* Pods-ZPNetworking_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPNetworking_Tests-Info.plist"; sourceTree = "<group>"; };
-		FFDB6C400345B17A414DF65F3822537A /* ZPNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPNetworking.release.xcconfig; sourceTree = "<group>"; };
+		FFA2EFB195B5F19CFCCC8B541A141CBC /* ZPNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZPNetworking-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		128C350DCC0A280408EB344D0766A758 /* Frameworks */ = {
+		33B971ADF6D4EB8AC0198B73F68EB2EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B08ED3E8F752938906D22B3A570C88CA /* Foundation.framework in Frameworks */,
+				7A452DC7883FCFFEE4ADF3AC7B33746C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,17 +102,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05E108AEF001C52AFC5D1B7D6B39F062 /* ZPNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				CD19718E0747A872278D09806C5ACEB9 /* ReplaceMe.m */,
-				7334F847A4B21453A96195614E8839C4 /* Pod */,
-				89F65561F618ADD0736463EC1E0353EF /* Support Files */,
-			);
-			name = ZPNetworking;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		16A88C0660840CC7B5A6C8F3AB33709A /* Pods-ZPNetworking_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +116,16 @@
 			);
 			name = "Pods-ZPNetworking_Tests";
 			path = "Target Support Files/Pods-ZPNetworking_Tests";
+			sourceTree = "<group>";
+		};
+		38F3CFAD58757BC5E9650063B7DB053D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				21066BF37A88EC728E0118D34338A6DD /* LICENSE */,
+				243FE23B054BD976E146C93E913A715C /* README.md */,
+				F667E14062B807DEFBEEABE9CF490338 /* ZPNetworking.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		554DB8F15A52AF6A460E7E2EE3252914 /* Pods-ZPNetworking_Example */ = {
@@ -152,14 +153,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7334F847A4B21453A96195614E8839C4 /* Pod */ = {
+		5E7EE2078A8E418174E73872435F9CC9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				57FEDE6A4FB3759FB2AD6D6CABE7ED42 /* LICENSE */,
-				A304ECA654D1638C8BC0C0DDC86D0E3E /* README.md */,
-				A60E5D2D6CC9F4746036A1FA2D43C410 /* ZPNetworking.podspec */,
+				B5B930A46B04790487E8913B764D2243 /* ZPNetworking */,
 			);
-			name = Pod;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6C2F61866A566733C8797BA846B51DF7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D041652C5A0314816956DFCC9AD662BA /* ZPNetworking.modulemap */,
+				0E2EAA614CC5D7AFC50874C3B215CA6B /* ZPNetworking-dummy.m */,
+				FFA2EFB195B5F19CFCCC8B541A141CBC /* ZPNetworking-Info.plist */,
+				434903B92A94C2AC74796DB6ADEA89B0 /* ZPNetworking-prefix.pch */,
+				0C159DCF202DE210E31D078B8C9CAF0A /* ZPNetworking-umbrella.h */,
+				35896F00F7DF54AD1DFE70736895F348 /* ZPNetworking.debug.xcconfig */,
+				B108CF4238B210E1EC4616AB8CE4F070 /* ZPNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZPNetworking";
 			sourceTree = "<group>";
 		};
 		7BAD2FF3D2481C29AF35FF86707FB755 /* Targets Support Files */ = {
@@ -171,34 +185,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		89F65561F618ADD0736463EC1E0353EF /* Support Files */ = {
+		B5B930A46B04790487E8913B764D2243 /* ZPNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				B53A4E43CD908348A2AD018DF884959E /* ZPNetworking.modulemap */,
-				D27D655399E8CD9B2F79B3B2FA47B997 /* ZPNetworking-dummy.m */,
-				22183313B486D8061A1EF34E8C6FDC89 /* ZPNetworking-Info.plist */,
-				27457AA4D05A3A05F8F6B6D837B6B359 /* ZPNetworking-prefix.pch */,
-				279AB280BF476E8448607E8E19C05166 /* ZPNetworking-umbrella.h */,
-				50D0E303427F79F20925AE6957E4F8E0 /* ZPNetworking.debug.xcconfig */,
-				FFDB6C400345B17A414DF65F3822537A /* ZPNetworking.release.xcconfig */,
+				9A4564DD4EC49AD7D87D4E6F9453CCB5 /* ZPNetworking.h */,
+				568E0C8F87D0B6AB63B5B8D749547F7C /* ZPNetworking.m */,
+				38F3CFAD58757BC5E9650063B7DB053D /* Pod */,
+				6C2F61866A566733C8797BA846B51DF7 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZPNetworking";
-			sourceTree = "<group>";
-		};
-		B338AF824FE498E79856E4208304B673 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				05E108AEF001C52AFC5D1B7D6B39F062 /* ZPNetworking */,
-			);
-			name = "Development Pods";
+			name = ZPNetworking;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B338AF824FE498E79856E4208304B673 /* Development Pods */,
+				5E7EE2078A8E418174E73872435F9CC9 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				EBC09CDF3EB791385BA400198BBA829F /* Products */,
 				7BAD2FF3D2481C29AF35FF86707FB755 /* Targets Support Files */,
@@ -226,6 +229,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		06C782B82C72DA1E808D5190D514712C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDFDF35B1E46D8720382B31DA39E530 /* ZPNetworking.h in Headers */,
+				2E95A68F24448786751FE504333B8A59 /* ZPNetworking-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3B3A7DF7B7815E215D37BBB96C12B11E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,25 +254,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEA1B4C96BD03FBCFC6C69C23A772F76 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				558FEC5285B36FB3BADC86281A85C83E /* ZPNetworking-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		31FA067FF991E7BD62261BCA69E2C4E4 /* ZPNetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6BA3898454E77A5D192E91F1F279881 /* Build configuration list for PBXNativeTarget "ZPNetworking" */;
+			buildConfigurationList = 56A6AB232CEC2138B6622CEAFFCC9C2D /* Build configuration list for PBXNativeTarget "ZPNetworking" */;
 			buildPhases = (
-				AEA1B4C96BD03FBCFC6C69C23A772F76 /* Headers */,
-				19682F5CA3BCEF5E201E5594C2984F2D /* Sources */,
-				128C350DCC0A280408EB344D0766A758 /* Frameworks */,
-				8B910EEC8DF672697066B0094521E189 /* Resources */,
+				06C782B82C72DA1E808D5190D514712C /* Headers */,
+				81C0C92F16DF81895983CA475A99DF70 /* Sources */,
+				33B971ADF6D4EB8AC0198B73F68EB2EF /* Frameworks */,
+				7FC110DA2D563753931A4D153228E058 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +287,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CA203284D16854407AD263118867DA62 /* PBXTargetDependency */,
+				EBF4851001FE6526473CF97D83E056F8 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZPNetworking_Example";
 			productName = Pods_ZPNetworking_Example;
@@ -302,7 +306,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C1210B5C83FCEB712A675FAC45EB3DFD /* PBXTargetDependency */,
+				F30C1CA6BBD44C90DBA2B6D23D264026 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZPNetworking_Tests";
 			productName = Pods_ZPNetworking_Tests;
@@ -353,7 +357,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B910EEC8DF672697066B0094521E189 /* Resources */ = {
+		7FC110DA2D563753931A4D153228E058 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,20 +367,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		19682F5CA3BCEF5E201E5594C2984F2D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A3E818A465809ED0E2C980A8BDDD819 /* ReplaceMe.m in Sources */,
-				F6D63996AD17E70926F2640B00CCF768 /* ZPNetworking-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		53C94D95FF95395672F12CDC7EF102F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AB159F7D9F82D7981139D11BB3ACC21E /* Pods-ZPNetworking_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C0C92F16DF81895983CA475A99DF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468C9545FCE6D305D1AC6E260223606A /* ZPNetworking.m in Sources */,
+				CD767523860E5F2A9D48825096C7D649 /* ZPNetworking-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,17 +395,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C1210B5C83FCEB712A675FAC45EB3DFD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ZPNetworking_Example";
-			target = 54249B8F6A5DBB9937662D59661244C9 /* Pods-ZPNetworking_Example */;
-			targetProxy = 561F2BA5E0C5CF6D3A59937817311FA8 /* PBXContainerItemProxy */;
-		};
-		CA203284D16854407AD263118867DA62 /* PBXTargetDependency */ = {
+		EBF4851001FE6526473CF97D83E056F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZPNetworking;
 			target = 31FA067FF991E7BD62261BCA69E2C4E4 /* ZPNetworking */;
-			targetProxy = 1F3D4252145C2E0C14492BA852608952 /* PBXContainerItemProxy */;
+			targetProxy = D718F5C0FEA271D014DCCF557B320B5D /* PBXContainerItemProxy */;
+		};
+		F30C1CA6BBD44C90DBA2B6D23D264026 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZPNetworking_Example";
+			target = 54249B8F6A5DBB9937662D59661244C9 /* Pods-ZPNetworking_Example */;
+			targetProxy = 332780934BCCDABDB778A102C206363F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -505,6 +509,37 @@
 			};
 			name = Debug;
 		};
+		4CCCC0B755BD1B6C78025B05ADB4E08B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35896F00F7DF54AD1DFE70736895F348 /* ZPNetworking.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZPNetworking/ZPNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZPNetworking/ZPNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZPNetworking/ZPNetworking.modulemap";
+				PRODUCT_MODULE_NAME = ZPNetworking;
+				PRODUCT_NAME = ZPNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B99328D31DC060FD36DA02270E390711 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E175617AFD924390A41E23A295944DBA /* Pods-ZPNetworking_Tests.debug.xcconfig */;
@@ -592,9 +627,42 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CC50FA4DF58C4F5D232902D4D0B21747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B108CF4238B210E1EC4616AB8CE4F070 /* ZPNetworking.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZPNetworking/ZPNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZPNetworking/ZPNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZPNetworking/ZPNetworking.modulemap";
+				PRODUCT_MODULE_NAME = ZPNetworking;
+				PRODUCT_NAME = ZPNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -624,67 +692,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D429A08CC2C9B2AF4EBF8B18DB4E2351 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFDB6C400345B17A414DF65F3822537A /* ZPNetworking.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZPNetworking/ZPNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZPNetworking/ZPNetworking-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZPNetworking/ZPNetworking.modulemap";
-				PRODUCT_MODULE_NAME = ZPNetworking;
-				PRODUCT_NAME = ZPNetworking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F2D151E451FFACCEE7770829B625C982 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50D0E303427F79F20925AE6957E4F8E0 /* ZPNetworking.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZPNetworking/ZPNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZPNetworking/ZPNetworking-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZPNetworking/ZPNetworking.modulemap";
-				PRODUCT_MODULE_NAME = ZPNetworking;
-				PRODUCT_NAME = ZPNetworking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -745,11 +752,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6BA3898454E77A5D192E91F1F279881 /* Build configuration list for PBXNativeTarget "ZPNetworking" */ = {
+		56A6AB232CEC2138B6622CEAFFCC9C2D /* Build configuration list for PBXNativeTarget "ZPNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2D151E451FFACCEE7770829B625C982 /* Debug */,
-				D429A08CC2C9B2AF4EBF8B18DB4E2351 /* Release */,
+				4CCCC0B755BD1B6C78025B05ADB4E08B /* Debug */,
+				CC50FA4DF58C4F5D232902D4D0B21747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

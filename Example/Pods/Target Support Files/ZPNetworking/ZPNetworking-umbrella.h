@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ZPNetworking.h"
 
 FOUNDATION_EXPORT double ZPNetworkingVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZPNetworkingVersionString[];
